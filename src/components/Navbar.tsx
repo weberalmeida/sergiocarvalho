@@ -36,6 +36,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenShare }) =>
               alt={CONSULTANT_DATA.name}
               className="w-10 h-10 rounded-full object-cover border-2 border-amber-500/80 shadow-md"
               referrerPolicy="no-referrer"
+              onError={(e) => {
+                e.currentTarget.src = "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800";
+              }}
             />
             <span className="absolute -bottom-1 -right-1 bg-emerald-500 w-3.5 h-3.5 rounded-full border-2 border-slate-900" title="Disponível para consultoria" />
           </div>

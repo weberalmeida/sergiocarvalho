@@ -1,10 +1,11 @@
 import { Consultant, MarketMetric, Property, Testimonial } from "../types";
+import heroAvatar from "../assets/hero-consultant.jpg";
 
 export const CONSULTANT_DATA: Consultant = {
   name: "Sérgio Carvalho",
   title: "Consultor de Investimentos Imobiliários & Gestão Patrimonial",
   creci: "CRECI-PB 11.482-F",
-  avatarUrl: "/hero-consultant.jpg",
+  avatarUrl: heroAvatar,
   yearsExperience: 12,
   transactedVolume: "R$ 145M+",
   rating: 4.98,

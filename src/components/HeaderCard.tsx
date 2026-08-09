@@ -50,6 +50,9 @@ export const HeaderCard: React.FC<HeaderCardProps> = ({ onOpenBooking, onOpenSha
                     alt={CONSULTANT_DATA.name}
                     className="w-full h-full object-cover object-center filter contrast-105"
                     referrerPolicy="no-referrer"
+                    onError={(e) => {
+                      e.currentTarget.src = "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800";
+                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60" />
                   
