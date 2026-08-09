@@ -44,11 +44,11 @@ export const HeaderCard: React.FC<HeaderCardProps> = ({ onOpenBooking, onOpenSha
               <div className="relative group">
                 {/* Glow ring */}
                 <div className="absolute -inset-1 bg-gradient-to-r from-amber-500 to-emerald-500 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-500" />
-                <div className="relative w-44 h-56 sm:w-52 sm:h-64 rounded-2xl overflow-hidden border-2 border-slate-700/80 shadow-2xl bg-slate-950">
+                <div className="relative w-60 h-64 sm:w-72 sm:h-72 rounded-2xl overflow-hidden border-2 border-slate-700/80 shadow-2xl bg-slate-950">
                   <img
                     src={CONSULTANT_DATA.avatarUrl}
                     alt={CONSULTANT_DATA.name}
-                    className="w-full h-full object-cover object-top filter contrast-105"
+                    className="w-full h-full object-cover object-center filter contrast-105"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60" />

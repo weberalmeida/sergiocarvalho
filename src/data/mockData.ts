@@ -4,7 +4,7 @@ export const CONSULTANT_DATA: Consultant = {
   name: "Sérgio Carvalho",
   title: "Consultor de Investimentos Imobiliários & Gestão Patrimonial",
   creci: "CRECI-PB 11.482-F",
-  avatarUrl: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800",
+  avatarUrl: "/hero-consultant.jpg",
   yearsExperience: 12,
   transactedVolume: "R$ 145M+",
   rating: 4.98,
