@@ -1,0 +1,6 @@
+{
+  "name": "Cartão Digital - Consultoria Imobiliária PB",
+  "description": "Cartão de visitas digital e plataforma de consultoria em investimentos imobiliários na Paraíba. Agende reuniões virtuais, calcule rentabilidade e descubra o boom de valorização de João Pessoa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
