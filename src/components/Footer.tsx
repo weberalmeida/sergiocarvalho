@@ -24,9 +24,20 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Center */}
-        <div className="text-center text-[11px] text-slate-500">
+        <div className="text-center text-[11px] text-slate-500 space-y-1">
           <p>© {new Date().getFullYear()} Todos os direitos reservados.</p>
           <p className="mt-0.5">Projeções de rentabilidade baseadas em taxas históricas de valorização e ocupação de temporada.</p>
+          <p className="pt-1 text-slate-400">
+            Desenvolvimento{" "}
+            <a
+              href="https://wemp.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-amber-400 hover:text-amber-300 transition-colors underline underline-offset-2"
+            >
+              Wemp
+            </a>
+          </p>
         </div>
 
         {/* Right - Scroll Top */}
