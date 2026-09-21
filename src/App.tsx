@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar } from "./components/Navbar";
 import { HeaderCard } from "./components/HeaderCard";
 import { ParaibaBoomSection } from "./components/ParaibaBoomSection";
@@ -13,6 +13,10 @@ import { BookingDetails } from "./types";
 export default function App() {
   const [activeBooking, setActiveBooking] = useState<BookingDetails | null>(null);
   const [isShareOpen, setIsShareOpen] = useState(false);
+
+  useEffect(() => {
+    document.title = "PB Invest";
+  }, []);
 
   const handleOpenBookingScroll = () => {
     const el = document.getElementById("agendamento");

@@ -1,5 +1,6 @@
 {
-  "name": "react-example",
+  "name": "pb-invest",
+  "description": "PB Invest - Consultoria em Investimentos Imobiliários na Paraíba",
   "private": true,
   "version": "0.0.0",
   "type": "module",
